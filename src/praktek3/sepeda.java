@@ -9,6 +9,19 @@ public class sepeda {
       system.out.println("merk \t: "+merk+"\n"+
               "warna \t: "+warna+"\n"+
               "harga \t  "+harga);
-      
-  }
+      }
+
+    public string getMerk() {
+        return merk;
+    }
+
+    public string getWarna() {
+        return warna;
+    }
+
+    public double getHarga() {
+        return harga;
+    }
+  
+  
 }
