@@ -1,9 +1,9 @@
 package praktek3;
 
 public class sepeda {
-  string merk;
-  string warna;
-  double harga;
+  private string merk;
+  private string warna;
+  private double harga;
   
   void cetakinfo(){
       system.out.println("merk \t: "+merk+"\n"+
